@@ -1,0 +1,36 @@
+.profile-picture {
+  margin-top: 20px;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.presentation {
+  max-width: 585px;
+  height: fit-content;
+  margin-bottom: 30px;
+}
+
+/* BUTTON */
+
+.btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+
+  cursor: pointer;
+  color: black;
+}
+
+.btn-color-2 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+  background: none;
+}
+.btn-color-2:hover {
+  cursor: pointer;
+  background: rgb(53, 53, 53);
+  color: white;
+  border: rgb(255, 255, 255) 0.1rem solid;
+}

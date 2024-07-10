@@ -1,0 +1,38 @@
+/* NAV */
+
+.main-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  font-family: "barlow", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.nav-list {
+  margin-left: auto;
+  display: flex;
+  align-items: flex-end;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  text-decoration: none;
+  text-decoration-color: white;
+  color: black;
+}
+
+.nav-link:last-child {
+  padding-right: 0;
+}
+.nav-link:hover {
+  color: #d1a33d;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: #d1a33d;
+}
+.logo {
+  max-width: 70px;
+}

@@ -1,0 +1,28 @@
+{
+  "slides": [
+    {
+      "src": "../drawings/4-tourmalines--ODIVA-gouache-tech.jpg",
+      "alt": "image 1 for carousel",
+      "name": "ODIVA collection",
+      "description": "Illustration for Atelier Paulin's boutique in New York"
+    },
+    {
+      "src": "../drawings/5-Tourmalines-ODIVA-dégradé.jpg",
+      "alt": "image 2 for carousel",
+      "name": "ODIVA collection",
+      "description": "Illustration for Atelier Paulin's boutique in New York"
+    },
+    {
+      "src": "../drawings/3-tourmaline-et-bijoux.jpg",
+      "alt": "image 3 for carousel",
+      "name": "Atelier Paulin's jewels",
+      "description": "Illustration for Atelier Paulin's boutique in New York"
+    },
+    {
+      "src": "../drawings/Grand Skim pochette.jpg",
+      "alt": "image 4 for carousel",
+      "name": "Album cover of PLOYD",
+      "description": "2018 - Creation of the cover illustration for musician PLOYD's new album"
+    }
+  ]
+}

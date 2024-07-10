@@ -1,0 +1,19 @@
+#image-accueil {
+  width: 100%;
+}
+
+h1 {
+  font-family: "barlow", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
