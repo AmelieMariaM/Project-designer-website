@@ -36,5 +36,14 @@ section {
 }
 
 Footer {
-  margin: 10px 10px;
+  margin: 50px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.logo-insta {
+  width: 80px;
+  padding: 10px;
 }

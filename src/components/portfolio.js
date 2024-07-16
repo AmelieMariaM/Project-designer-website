@@ -14,6 +14,21 @@ import project13 from "../assets/projects/Tense.jpg";
 import "../styles/portfolio.css";
 
 function Portfolio() {
+  const projects = [
+    { src: project1, title: "Fracture" },
+    { src: project3, title: "LUX" },
+    { src: project4, title: "Megosphere" },
+    { src: project5, title: "NEBULA" },
+    { src: project6, title: "PAULIN - La vie est belle" },
+    { src: project7, title: "Punching Bag" },
+    { src: project8, title: "Pur Chaos" },
+    { src: project9, title: "Sac" },
+    { src: project10, title: "Serenity Pearl" },
+    { src: project11, title: "Slowmi" },
+    { src: project12, title: "Tabouret IN OUT" },
+    { src: project13, title: "Tense" },
+  ];
+
   return (
     <section>
       <h3 id="design">DESIGN PORTFOLIO</h3>
@@ -22,20 +37,12 @@ function Portfolio() {
       </p>
 
       <div class="gallery">
-        <div class="photo-project">
-          <img class="gallery-photo" src={project1} alt="" />
-          <img class="gallery-photo" src={project3} alt="" />
-          <img class="gallery-photo" src={project4} alt="" />
-          <img class="gallery-photo" src={project5} alt="" />
-          <img class="gallery-photo" src={project6} alt="" />
-          <img class="gallery-photo" src={project7} alt="" />
-          <img class="gallery-photo" src={project8} alt="" />
-          <img class="gallery-photo" src={project9} alt="" />
-          <img class="gallery-photo" src={project10} alt="" />
-          <img class="gallery-photo" src={project11} alt="" />
-          <img class="gallery-photo" src={project12} alt="" />
-          <img class="gallery-photo" src={project13} alt="" />
-        </div>
+        {projects.map((project, index) => (
+          <div class="projects-list" key={index}>
+            <img class="project" src={project.src} alt={project.title} />
+            <div className="project-description">{project.title}</div>
+          </div>
+        ))}
       </div>
     </section>
   );
