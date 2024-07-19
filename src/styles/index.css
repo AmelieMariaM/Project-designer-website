@@ -8,6 +8,7 @@
 body {
   background-image: url(../assets/fond.jpg);
   background-size: contain;
+  font-family: "barlow", sans-serif;
 }
 
 .app-container {
@@ -33,6 +34,7 @@ h3 {
 }
 section {
   text-align: center;
+  /* min-height: 200vw; */
 }
 
 Footer {
@@ -46,4 +48,12 @@ Footer {
 .logo-insta {
   width: 80px;
   padding: 10px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
 }
