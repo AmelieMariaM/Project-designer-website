@@ -27,9 +27,9 @@ export const Carousel = ({ data }) => {
                   key={idx}
                   className={slide === idx ? "slide" : "slide slide-hidden"}
                 />
-                <div class="overlay">
-                  <div class="text">{item.name}</div>
-                  <div class="text">{item.description}</div>
+                <div className="overlay">
+                  <div className="text">{item.name}</div>
+                  <div className="text">{item.description}</div>
                 </div>
               </div>
             );

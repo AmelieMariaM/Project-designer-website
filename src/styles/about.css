@@ -34,3 +34,10 @@
   color: white;
   border: rgb(255, 255, 255) 0.1rem solid;
 }
+@media (max-width: 768px) {
+  .profile-picture,
+  .presentation {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}

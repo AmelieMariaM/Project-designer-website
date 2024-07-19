@@ -2,8 +2,8 @@ import "../styles/stylebar.css";
 
 function Stylebar() {
   return (
-    <div class="barre-container">
-      <div class="barre-verticale"></div>
+    <div className="barre-container">
+      <div className="barre-verticale"></div>
     </div>
   );
 }

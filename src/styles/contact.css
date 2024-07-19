@@ -1,8 +1,9 @@
 /* SECTION CONTACT */
 .infos {
   font-family: "Raleway", sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   padding: 5px;
+  margin-top: 5px;
 }
 
 #form-group {
@@ -18,10 +19,18 @@
   margin-bottom: 10px;
   border: 1.5px solid rgb(53, 52, 52);
 }
+.input::placeholder,
+.text-area::placeholder {
+  padding-left: 5px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
 .text-area {
   width: 400px;
   border: 1.5px solid rgb(53, 52, 52);
   resize: none;
+  padding-top: 5px;
 }
 
 .send {
@@ -35,4 +44,11 @@
 
   cursor: pointer;
   color: black;
+}
+
+@media (max-width: 768px) {
+  input,
+  .text-area {
+    max-width: fit-content;
+  }
 }

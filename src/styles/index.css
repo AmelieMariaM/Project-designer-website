@@ -29,12 +29,11 @@ h3 {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  font-size: 20px;
-  padding-top: 20px;
+  font-size: 25px;
+  padding: 20px;
 }
 section {
   text-align: center;
-  /* min-height: 200vw; */
 }
 
 Footer {
@@ -56,4 +55,9 @@ ul {
 }
 a {
   text-decoration: none;
+}
+@media (max-width: 768px) {
+  section {
+    max-width: fit-content;
+  }
 }
