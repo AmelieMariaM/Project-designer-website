@@ -22,7 +22,7 @@ function Portfolio() {
     { src: project6, title: "PAULIN - La vie est belle" },
     { src: project7, title: "PUNCHING BAG" },
     { src: project8, title: "PURE CHAOS" },
-    { src: project9, title: "BAG" },
+    { src: project9, title: "TO GO BAG" },
     { src: project10, title: "SERENITY PEARL" },
     { src: project11, title: "SLOWMI" },
     { src: project12, title: "TABOURET IN OUT" },

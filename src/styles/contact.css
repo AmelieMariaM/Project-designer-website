@@ -47,8 +47,10 @@
 }
 
 @media (max-width: 768px) {
-  input,
   .text-area {
     max-width: fit-content;
+  }
+  .input {
+    width: 300px;
   }
 }

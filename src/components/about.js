@@ -1,6 +1,6 @@
 import "../styles/about.css";
 import profilePicture from "../assets/received_237340725382197 (1).jpeg";
-import CV from "../assets/CV-modele.pdf";
+import CV from "../assets/Elliot Masson-CVV version 6.pdf";
 
 function About() {
   const openPdf = () => {

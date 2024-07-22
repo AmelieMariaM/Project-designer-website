@@ -46,6 +46,7 @@
   }
   .logo {
     max-height: 70px;
+    margin-left: 5px;
   }
 
   .nav-list.open {
